@@ -24,6 +24,3 @@ class Get_by_coord:
         if res.ok:
             return res.json()['lat'], res.json()['lon']
 
-o1 = Get_by_coord()
-print(o1.get_address(56.98217,40.98427))
-print(o1.get_excat_coord(56.98217,40.98427))

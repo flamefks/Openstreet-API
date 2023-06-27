@@ -34,5 +34,4 @@ class Get_by_addresses:
             res = requests.get(url=self.url,params=params)
             if res.ok:
                 return len(res.json())
-# o1 = Get_by_addresses()
-# print(o1.get_coord_by_address("17 Сысольское шоссе", 'Сыктывкар'))
+
