@@ -17,4 +17,3 @@ def get_limit(limit=None):
     if resp.ok:
         return resp.json()
 
-print(get_limit())
