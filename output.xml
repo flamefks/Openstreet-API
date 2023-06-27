@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0 (Python 3.10.0 on win32)" generated="20230623 19:49:05.220" rpa="false" schemaversion="3">
+<suite id="s1" name="API homework" source="C:\Users\Andrey\API_homework">
+<suite id="s1-s1" name="Robot" source="C:\Users\Andrey\API_homework\robot">
+<suite id="s1-s1-s1" name="Test Api" source="C:\Users\Andrey\API_homework\robot\test_api.robot">
+<test id="s1-s1-s1-t1" name="Limit val" line="5">
+<kw name="Get Limit" library="api">
+<var>${limit}</var>
+<arg>${3}</arg>
+<msg timestamp="20230623 19:49:06.212" level="INFO">${limit} = 3</msg>
+<status status="PASS" starttime="20230623 19:49:05.683" endtime="20230623 19:49:06.212"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${limit}</arg>
+<arg>${3}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20230623 19:49:06.212" endtime="20230623 19:49:06.212"/>
+</kw>
+<status status="PASS" starttime="20230623 19:49:05.683" endtime="20230623 19:49:06.212"/>
+</test>
+<test id="s1-s1-s1-t2" name="Limit max" line="9">
+<kw name="Get Limit" library="api">
+<var>${max}</var>
+<arg>${51}</arg>
+<msg timestamp="20230623 19:49:06.876" level="INFO">${max} = 50</msg>
+<status status="PASS" starttime="20230623 19:49:06.212" endtime="20230623 19:49:06.876"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${max}</arg>
+<arg>${50}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20230623 19:49:06.884" endtime="20230623 19:49:06.885"/>
+</kw>
+<status status="PASS" starttime="20230623 19:49:06.212" endtime="20230623 19:49:06.885"/>
+</test>
+<test id="s1-s1-s1-t3" name="Limit default" line="13">
+<kw name="Get Limit" library="api">
+<var>${default}</var>
+<msg timestamp="20230623 19:49:07.176" level="INFO">${default} = 10</msg>
+<status status="PASS" starttime="20230623 19:49:06.885" endtime="20230623 19:49:07.176"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${default}</arg>
+<arg>${10}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20230623 19:49:07.184" endtime="20230623 19:49:07.184"/>
+</kw>
+<status status="PASS" starttime="20230623 19:49:06.885" endtime="20230623 19:49:07.184"/>
+</test>
+<status status="PASS" starttime="20230623 19:49:05.257" endtime="20230623 19:49:07.184"/>
+</suite>
+<status status="PASS" starttime="20230623 19:49:05.257" endtime="20230623 19:49:07.192"/>
+</suite>
+<status status="PASS" starttime="20230623 19:49:05.224" endtime="20230623 19:49:07.192"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="API homework">API homework</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="Robot">API homework.Robot</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1-s1" name="Test Api">API homework.Robot.Test Api</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
