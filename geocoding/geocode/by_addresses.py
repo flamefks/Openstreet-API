@@ -34,6 +34,6 @@ class Get_by_addresses:
             res = requests.get(url=self.url,params=params)
             if res.ok:
                 return len(res.json())
-        def __add__(self, other):
-            return other.url + self.url
 
+        def test_squash(self):
+            return "Squash"
