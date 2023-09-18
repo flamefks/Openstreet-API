@@ -35,5 +35,10 @@ class Get_by_addresses:
             if res.ok:
                 return len(res.json())
 
+<<<<<<< HEAD
         def test_squash(self):
             return "Squash"
+=======
+        def __str__(self):
+            return "corn"
+>>>>>>> 7d530f1 (train_Squash)
