@@ -34,5 +34,3 @@ class Get_by_addresses:
             res = requests.get(url=self.url,params=params)
             if res.ok:
                 return len(res.json())
-        def __str__(self):
-            return "dsdsd"
