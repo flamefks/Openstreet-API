@@ -37,3 +37,8 @@ class Get_by_addresses:
         def __add__(self, other):
             return other.url + self.url
 
+        def __str__(self):
+            return "corn"
+
+        def test_Squash(self):
+            return 0
