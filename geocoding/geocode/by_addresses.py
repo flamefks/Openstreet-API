@@ -41,4 +41,10 @@ class Get_by_addresses:
 =======
         def __str__(self):
             return "corn"
+<<<<<<< HEAD
 >>>>>>> 7d530f1 (train_Squash)
+=======
+
+        def help_me(self):
+            return "help"
+>>>>>>> 715ed88 (HELP)
