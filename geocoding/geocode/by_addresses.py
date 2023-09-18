@@ -34,17 +34,3 @@ class Get_by_addresses:
             res = requests.get(url=self.url,params=params)
             if res.ok:
                 return len(res.json())
-
-<<<<<<< HEAD
-        def test_squash(self):
-            return "Squash"
-=======
-        def __str__(self):
-            return "corn"
-<<<<<<< HEAD
->>>>>>> 7d530f1 (train_Squash)
-=======
-
-        def help_me(self):
-            return "help"
->>>>>>> 715ed88 (HELP)
